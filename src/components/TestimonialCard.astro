@@ -1,0 +1,17 @@
+---
+const { name, review } = Astro.props;
+---
+<div class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light m-2">
+    <div class="w-full flex mb-4 items-center">
+        <div class="flex-grow pl-3">
+            <h6 class="font-bold text-sm uppercase text-gray-600">{name}</h6>
+        </div>
+    </div>
+    <div class="w-full">
+        <p class="text-sm leading-tight">
+            <span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>
+                {review}
+            <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span>
+        </p>
+    </div>
+</div>
