@@ -24,7 +24,7 @@ const testimonialList = [
       "My husband and I love the format and appreciate all of the work you put in making your own graphics and songs and keeping things at a slow natural pace, similar to what they'd get if you were sitting with them in real life.  There are very few channels out there like yours - keep up the great work!",
   },
   {
-    name: "Ashely",
+    name: "Ashley",
     review:
       "We are HUGE fans!! We have watched all of your videos at least half a million times!  Your haircut video helped my son get over his fear of haircuts.  You are greatly appreciated by littles and parents alike!",
   },
