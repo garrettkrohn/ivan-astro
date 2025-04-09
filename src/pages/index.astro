@@ -1,8 +1,20 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro'; 
+import BuyColoringBook from '../components/buyButtons/BuyColoringBook.astro'
+import BuyShirt from '../components/buyButtons/BuyShirt.astro';
+import BuyTattoo from '../components/buyButtons/BuyTattoo.astro';
+import BuyChainsawPage from '../components/buyButtons/BuyChainsawPage.astro';
 ---
 
 <Layout>
     <Header />
+    <div class="flex justify-center items-start py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <BuyColoringBook />
+            <BuyShirt />
+            <BuyTattoo />
+            <BuyChainsawPage />
+        </div>
+    </div>
 </Layout>
